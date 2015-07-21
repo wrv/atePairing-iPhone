@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "bn.h"
 
 @interface Ate : NSObject
 

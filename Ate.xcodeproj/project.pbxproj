@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F67528B1B5EF9270079CD97 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F67528A1B5EF9270079CD97 /* MainViewController.m */; };
 		51A50A231B58359400B38867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A50A221B58359400B38867 /* Foundation.framework */; };
 		51A50A281B58359400B38867 /* Ate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 51A50A271B58359400B38867 /* Ate.h */; };
 		51A50A2A1B58359400B38867 /* Ate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A50A291B58359400B38867 /* Ate.m */; };
@@ -47,6 +48,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F6752881B5EF85B0079CD97 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		3F6752891B5EF9270079CD97 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3F67528A1B5EF9270079CD97 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		51A50A1F1B58359400B38867 /* libAte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAte.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51A50A221B58359400B38867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		51A50A261B58359400B38867 /* Ate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ate-Prefix.pch"; sourceTree = "<group>"; };
@@ -138,6 +142,9 @@
 				51A50A271B58359400B38867 /* Ate.h */,
 				51A50A291B58359400B38867 /* Ate.m */,
 				51A50A251B58359400B38867 /* Supporting Files */,
+				3F6752881B5EF85B0079CD97 /* Storyboard.storyboard */,
+				3F6752891B5EF9270079CD97 /* MainViewController.h */,
+				3F67528A1B5EF9270079CD97 /* MainViewController.m */,
 			);
 			path = Ate;
 			sourceTree = "<group>";
@@ -299,7 +306,7 @@
 		51A50A171B58359400B38867 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Miguel León";
 			};
 			buildConfigurationList = 51A50A1A1B58359400B38867 /* Build configuration list for PBXProject "Ate" */;
@@ -356,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51A50A2A1B58359400B38867 /* Ate.m in Sources */,
+				3F67528B1B5EF9270079CD97 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,7 +401,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -431,7 +438,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +494,6 @@
 		51A50A461B58359500B38867 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -509,7 +514,6 @@
 		51A50A471B58359500B38867 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
